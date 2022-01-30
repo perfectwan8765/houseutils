@@ -1,0 +1,5 @@
+### 매매일때
+GET http://localhost:8080/api/calc/brokerage?actionType=PURCHASE&price=1000000000
+
+### 임대차일때
+GET http://localhost:8080/api/calc/brokerage?actionType=RENT&price=1000000000
