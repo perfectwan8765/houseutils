@@ -1,5 +1,7 @@
 package com.jsw.houseutil.policy;
 
+import org.springframework.lang.Nullable;
+
 import lombok.AllArgsConstructor;
 
 /**
@@ -9,6 +11,8 @@ import lombok.AllArgsConstructor;
 public class BrokerageRule {
 
     private Double brokeragePercent;
+    
+    @Nullable
     private Long limitAmount;
 
     public Long calMaxBrokerage (Long price) {
