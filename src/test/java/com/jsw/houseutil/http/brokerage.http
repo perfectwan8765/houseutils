@@ -3,3 +3,7 @@ GET http://localhost:8080/api/calc/brokerage?actionType=PURCHASE&price=100000000
 
 ### 임대차일때
 GET http://localhost:8080/api/calc/brokerage?actionType=RENT&price=1000000000
+
+
+### 아파트일때 apartmentId로 조회
+GET http://localhost:8080/api/calc/apartment/1?actionType=RENT
