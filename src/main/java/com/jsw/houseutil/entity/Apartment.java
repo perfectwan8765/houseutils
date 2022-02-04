@@ -25,5 +25,5 @@ public class Apartment {
     private String address;
 
     @Column(nullable = false)
-    private String price;
+    private Long price;
 }
